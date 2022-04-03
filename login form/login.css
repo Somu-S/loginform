@@ -1,0 +1,30 @@
+input{
+    width: 96%;
+    height: 30px;
+    margin-top: 4px;
+}
+.loginform{
+    background-color: aqua;
+    padding: 20px 5px; 
+    margin: 30px;
+}
+label{
+    font-size: 20px;
+    padding:5px;
+}
+.formcontrol{
+    margin: 30px
+}
+.buttonscontrol{
+    width: fit-content;
+    margin: 0px auto;
+}
+.buttonscontrol button{
+    padding: 12px 50px;
+    font-size: 18px;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+    background-color: rgb(220, 213, 35);
+    cursor: pointer;
+}

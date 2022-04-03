@@ -1,0 +1,22 @@
+.form{
+    background-color: aquamarine;
+    padding: 5px;
+}
+.form-control{
+    margin: 15px 0px;
+    display :flex
+}
+
+.form-control label{
+    flex: 1;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.form-control input{
+    flex: 4;
+    height: 30px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,80 @@
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parents{
+    background-color: white;
+    display: flex;
+    width: 50%;
+    height: 400px;
+    box-shadow: 1px 10px 25px 1px  rgba(0,0,0,0.8);
+    border-radius: 5px;
+    margin: 15%;
+}
+.login{
+    flex: 1;
+}
+.csslogin{
+    flex: 1;
+    background-color: rgb(243, 34, 76);
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 30px;
+    margin: 2px 5px;
+}
+.inputctrl{
+    margin: 20px;
+}
+
+.for{
+    margin: 8px;
+    text-align: center;
+}
+.or{
+    margin: 10px;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(255, 4, 54);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+input{
+    width: 80%;
+    margin-left: 8%;
+    outline: none;
+    height: 30px;
+    border: none;
+    background-color: rgb(238, 237, 237);
+    padding-left: 10px;
+}
+.header1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 800;
+}
+.header2{
+    text-align: center;
+    margin: 40px;
+    margin-top: 30%;
+    color: white;
+}
+p{
+    text-align: center;
+    margin: 30px 40px;
+    color: white
+}
+
+.buttoncontrol{
+    text-align: center;
+}    

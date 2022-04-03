@@ -1,0 +1,23 @@
+body {
+  background-color: aqua;
+}
+.ululu {
+  color: azure;
+}
+.red {
+  color: darkred;
+}
+.brown {
+  color: brown;
+}
+.blue {
+  color: blue;
+}
+.black {
+  color: black;
+}
+#pink {
+  color: hotpink;
+  font-size: 50px;
+  text-decoration: none;
+}

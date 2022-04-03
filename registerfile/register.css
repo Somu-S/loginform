@@ -1,0 +1,16 @@
+body{
+    background-color: cornflowerblue;
+}
+.mainbody{
+    background-color: aliceblue;
+    display: flex;
+    width: 50%;
+    height: 500px;
+}
+.contact{
+    background-color: blue;
+    flex: 1;
+}
+.general{
+    flex: 1;
+}

@@ -1,0 +1,20 @@
+.newform{
+    background-color: aqua;
+    padding: 5px;
+}
+.form-control{
+    margin: 15px 0px;
+    display: flex;
+}
+.form-control label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex: 1;
+}
+.form-control input{
+    flex: 2;
+    height: 30%;
+    width: 50%;
+    border-radius:10px ;
+    border: none;
+    outline: none;
+}

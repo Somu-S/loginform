@@ -1,0 +1,55 @@
+label{
+    font-size: 18px;
+}
+.registeration-form{
+    background-color: darkviolet;
+    width: 70%;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.formcontrol{
+    margin: 30px;
+    display: flex;
+}
+
+.formcontrol label{
+    flex: 3;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.mygender{
+    padding: 15px 0px;
+}
+
+.genders{
+    display: flex;
+    margin-left: 11%;
+}
+
+
+input{
+height: 30px;
+width: 80%;
+outline: none;
+}
+.buttonscontrol{
+width: fit-content;
+margin: 0px auto;
+}
+.buttonscontrol button{
+padding: 12px 50px
+}
+.abc{
+ display: flex;
+ align-items: center;
+ margin-right: 20px;
+
+}
+input[type='radio']{
+    width: 30px;
+}
+h1{
+    padding-left: 30px;
+}
