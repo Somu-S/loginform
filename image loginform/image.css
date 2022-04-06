@@ -2,7 +2,7 @@ body{
     background-color: coral;
     display: flex;
     justify-content: center;
-    margin: 10%;
+    padding-top: 100px;
 }
 img{
     height: 20px;
@@ -11,6 +11,7 @@ img{
     border: none;
     outline: none;
     width: 100%;
+    height: 30px;
     margin-left: 4px
 }
 .name{
@@ -18,23 +19,7 @@ img{
     width: 300px;
     display: flex;
     align-items: center;
-    padding: 3px; 
-    margin-bottom: 15px;
-    background-color: white;
-    border-radius: 3px;
-}
-.pass input{
-    border: none;
-    outline: none;
-    width: 100%;
-    margin-left: 4px;
-}
-.pass{
-    border: 1px solid rgba(0, 0, 0, 0.195);
-    width: 300px;
-    display: flex;
-    padding: 3px;
-    align-items: center;
+    margin-bottom: 10%;
     background-color: white;
     border-radius: 3px;
 }
@@ -42,17 +27,21 @@ img{
 {
     display: flex;
     margin-top: 25px;
+    margin-bottom: 30px;
 }
 .inputctrl{
-    margin: 20px
+    margin: 0px 20px;
+    margin-top: 70px;
 }
 
 .border{
     background-color: white;
-    height: 300px;
+    height: fit-content;
+    padding: 10px;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    position: relative;
     
 }
 button{
@@ -71,7 +60,9 @@ button{
 .profile img{ 
     width: 100px;
     height: 100px;
-    position: relative;
     overflow: hidden;
-    border-radius: 50%
+    border-radius: 50%;
+    position: absolute;
+    top:-50px;
+    left: 35%;
 }
