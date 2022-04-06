@@ -1,0 +1,77 @@
+body{
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+img{
+    height: 20px;
+}
+.name input{
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-left: 4px
+}
+.name{
+    border: 1px solid rgba(0, 0, 0, 0.195);
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding: 3px; 
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 3px;
+}
+.pass input{
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-left: 4px;
+}
+.pass{
+    border: 1px solid rgba(0, 0, 0, 0.195);
+    width: 300px;
+    display: flex;
+    padding: 3px;
+    align-items: center;
+    background-color: white;
+    border-radius: 3px;
+}
+.bottompart
+{
+    display: flex;
+    margin-top: 25px;
+}
+.inputctrl{
+    margin: 20px
+}
+
+.border{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+button{
+    margin-left: 100px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 132, 0, 0.92);
+    color: white;
+    cursor: pointer;
+}
+.reme{
+    display: flex;
+}
+.profile img{ 
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%
+}
